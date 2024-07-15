@@ -1,0 +1,31 @@
+kept making the bar graph look nicer.
+
+I also read some articles to get more background info about the project:
+    1. Graph-based pan-genome reveals structural and sequence variations related to agronomic traits and domestication in cucumber
+
+    2. A genomic variation map provides insights into the genetic basis of cucumber domestication and diversity
+
+    
+
+    3. Super-pangenome analyses highlight genomic diversity and structural variation across wild and cultivated tomato species
+
+    4. A graph-based genome and pan-genome variation of the model plant Setaria
+
+    5. Pangenome analysis reveals genomic variations associated with domestication traits in broomcorn millet
+
+    
+
+    6. Genome evolution and diversity of wild and cultivated potatoes
+
+    7. Phylogenomic discovery of deleterious mutations facilitates hybrid potato breeding
+
+    8. Graph pangenome captures missing heritability and empowers tomato breeding
+
+    9. Phylogenomic analyses provide insights into primate evolution
+(Also during luch watched Trump vs Biden presidential debate lol)
+
+I'm trying to copy the summer folder from server to local machine:
+ scp -r rocky@132.236.156.165:~/summer C:\Users\Rocky\Desktop\BTI\Raw_Data
+ - I first typed this in server cmd, it copied empty dir from my laptoop to the server.
+ = then I find out I have to open cmd on my local machine, and type this in cmd:
+    scp rocky@132.236.156.165:/data/rocky/summer/*.fa "C:/Users/Rocky/Desktop/BTI/Raw_Data"

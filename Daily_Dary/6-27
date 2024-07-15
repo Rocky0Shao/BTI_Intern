@@ -1,0 +1,33 @@
+1. ask Dr. Sun to create an account in 165 sever and log in it. (You could change the password if you want)
+
+2. learn some basic linux command line such as: cd, ls, mkdir, cp, mv, rm, vim
+
+3. count the gene number in 39 protein files.
+
+4. draw a histogram in of the gene number in R
+
+bash to: 
+    traverse all file in dir
+    count occurance of ">"
+    make it into txt containing:
+        2 column, 1 column gene name, 1 col protein num
+Excell read it.
+
+use R to draw histogram:    
+    cvt txt to csv
+    read it using r
+    use ggplot to maek histogram
+
+challenge:
+    x, y axis flipped 
+        -> correct in coce
+    scale of y axis poort ->
+        first ask chatgpt to solve, didn't work
+        then google the problem on stack overflow, finally worked. 
+            use cord_cartician(ylim), not just ylim.
+
+next step:
+    make csv to 3 line excll format
+      -> easy done
+    make histogram better looking.
+      -> easy done
