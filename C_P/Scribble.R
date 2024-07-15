@@ -14,16 +14,17 @@ data_long <- melt(data, id.vars = 'Gen_Num',
 # 'aggregate' calculates the median value for each combination of Gen_Num and variable
 medians <- aggregate(value ~ Gen_Num + variable, data_long, median)
 
-# Create the combined box plot with trend lines connecting the start points
+# Create the combined box plot with smooth trend lines connecting the start points
 combined_plot <- ggplot(data_long, aes(x=factor(Gen_Num), y=value, fill=variable)) +
   geom_boxplot(alpha=0.5) + # Box plot with transparent colors
-  geom_line(data=medians, 
-            aes(x=as.numeric(as.character(Gen_Num)), y=value, 
-                group=variable, color=variable), size=1) + # Trend lines
+  geom_smooth(data=medians, 
+              aes(x=as.numeric(as.character(Gen_Num)), y=value, 
+                  group=variable, color=variable), 
+              method='loess', size=1, se=FALSE) + # Smooth trend lines
   geom_point(data=medians, 
              aes(x=as.numeric(as.character(Gen_Num)), y=value, 
                  group=variable, color=variable), size=2) + # Points on trend lines
-  labs(title="Box plots of All_1 and At_Least_1 by Gen_Num with Trend Lines", 
+  labs(title="Box plots of All_1 and At_Least_1 by Gen_Num with Smooth Trend Lines", 
        x="Gen_Num", y="Value") + # Plot labels
   theme_minimal() + # Minimal theme for clean appearance
   scale_fill_manual(values=c("All_1"=adjustcolor("blue", alpha.f=0.5), 
