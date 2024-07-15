@@ -32,6 +32,6 @@ combined_plot <- ggplot(data_long, aes(x=factor(Gen_Num), y=value, fill=variable
   scale_color_manual(values=c("All_1"="blue", "At_Least_1"="green")) # Trend line colors
 
 # Save the plot to a PDF
-pdf("C_P_d.pdf", width=10, height=6)
+pdf("C_P_30.pdf", width=10, height=6)
 print(combined_plot) # Print the plot to the PDF device
 dev.off() # Close the PDF device
