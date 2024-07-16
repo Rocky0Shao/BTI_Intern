@@ -1,0 +1,36 @@
+###vim AM001_input.yml
+proteins_fasta: /data/rocky/pre_annotation/Total.fa
+token_score_bit_score_weight: 0.468
+token_score_database_score_weight: 0.2098
+token_score_overlap_score_weight: 0.3221
+output: /data/rocky/pre_annotation/output.csv
+blast_dbs:
+  swissprot:
+    weight: 653
+    description_score_bit_score_weight: 2.717061
+    file: /data/xuebo/cucumber/annotation/AHRD/uniprot_sprot/pep.fa_sp_fmt6.txt
+    database: /data/xuebo/cucumber/database/AHRD/uniprot/uniprot_sprot.fasta
+    blacklist: /data/xuebo/software/AHRD/test/resources/blacklist_descline.txt
+    filter: /data/xuebo/software/AHRD/test/resources/filter_descline_sprot.txt
+    token_blacklist: /data/xuebo/software/AHRD/test/resources/blacklist_token.txt
+
+  trembl:
+    weight: 904
+    description_score_bit_score_weight: 2.590211
+    file: /data/xuebo/cucumber/annotation/AHRD/uniprot_trembl/pep.fa_tr_fmt6.txt
+    database: /data/xuebo/cucumber/database/AHRD/uniprot/uniprot_trembl.fasta
+    blacklist: /data/xuebo/software/AHRD/test/resources/blacklist_descline.txt
+    filter: /data/xuebo/software/AHRD/test/resources/filter_descline_trembl.txt
+    token_blacklist: /data/xuebo/software/AHRD/test/resources/blacklist_token.txt
+
+  tair:
+    weight: 854
+    description_score_bit_score_weight: 2.917405
+    file: /data/xuebo/cucumber/annotation/AHRD/araprot10/pep.fa_at_fmt6.txt
+    database: /data/xuebo/cucumber/database/AHRD/TAIR10/TAIR10_pep_20101214_updated.fasta
+    fasta_header_regex: "^>(?<accession>[aA][tT][0-9mMcC][gG]\\d+(\\.\\d+)?)\\s+\\|[^\\|]+\\|\\s+(?<description>[^\\|]+)(\\s*\\|.*)?$"
+    short_accession_regex: "^(?<shortAccession>.+)$"
+    blacklist: /data/xuebo/software/AHRD/test/resources/blacklist_descline.txt
+    filter: /data/xuebo/software/AHRD/test/resources/filter_descline_tair.txt
+    token_blacklist: /data/xuebo/software/AHRD/test/resources/blacklist_token.txt
+##running
