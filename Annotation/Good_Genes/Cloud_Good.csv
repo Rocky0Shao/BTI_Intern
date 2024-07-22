@@ -1,47 +1,145 @@
-OG0019914 ,Encodes glutathione transferase belonging to the tau class of GSTs. Naming convention according to Wagner et al. (2002).
+OG0019914,Encodes glutathione transferase belonging to the tau class of GSTs. Naming convention according to Wagner et al. (2002).
 
-OG0020530 ,encodes an oligosaccharyl transferase involved response to high salt. Mutants are hypersensitive to high salt conditions The mRNA is cell-to-cell mobile.
+OG0020530,encodes an oligosaccharyl transferase involved response to high salt. Mutants are hypersensitive to high salt conditions The mRNA is cell-to-cell mobile.
 
-OG0020899 ,Calcium-binding EF hand family protein;(source:Araport11)
+OG0020899,Calcium-binding EF hand family protein;(source:Araport11)
 
-OG0021828 ,Chloroplast encoded NADH dehydrogenase unit.
+OG0021828,Chloroplast encoded NADH dehydrogenase unit.
 
-OG0022116 ,Receptor regulated by TRXh5; essential in the modulation of spider mite Tetranychus urticae defence.
+OG0022116,Receptor regulated by TRXh5; essential in the modulation of spider mite Tetranychus urticae defence.
 
-OG0022119 ,encodes a protein similar to cellulose synthase
+OG0022119,encodes a protein similar to cellulose synthase
 
-OG0022120 ,encodes a ubiquitin-protein ligase containing a HECT domain. There are six other HECT-domain UPLs in Arabidopsis.
+OG0022120,encodes a ubiquitin-protein ligase containing a HECT domain. There are six other HECT-domain UPLs in Arabidopsis.
 
-OG0022411 ,Receptor regulated by TRXh5; essential in the modulation of spider mite Tetranychus urticae defence.
+OG0022411,Receptor regulated by TRXh5; essential in the modulation of spider mite Tetranychus urticae defence.
 
-OG0022454 ,ubiquitin protein ligase 6;(source:Araport11)
+OG0022454,ubiquitin protein ligase 6;(source:Araport11)
 
-OG0022465 ,putative beta-galactosidase
+OG0022465,putative beta-galactosidase
 
-OG0022527 ,Encodes a cysteine-rich receptor-like protein kinase.
+OG0022527,Encodes a cysteine-rich receptor-like protein kinase.
 
-OG0022684 ,Cysteine-rich protein that confers cadmium tolerance to yeast. Homologs are also found in rice                                                                                ,Brassica rapa and pine.
+OG0022684,Cysteine-rich protein that confers cadmium tolerance to yeast. Homologs are also found in rice,Brassica rapa and pine.
 
-OG0022712 ,Encodes a protein that is predicted to act as a phosphatidylinositol-3P 5-kinase                                                                                              ,but                                                                                                                    ,because it lacks a FYVE domain                                                   ,it is unlikely to be efficiently targeted to membranes containing the porposed phosphatidylinositol-3P substrate. Therefore ,its molecular function remains unknown. The mRNA is cell-to-cell mobile.
+OG0022712,Encodes a protein that is predicted to act as a phosphatidylinositol-3P 5-kinase,but,because it lacks a FYVE domain,it is unlikely to be efficiently targeted to membranes containing the porposed phosphatidylinositol-3P substrate. Therefore,its molecular function remains unknown. The mRNA is cell-to-cell mobile.
 
-OG0022713 ,Pectin lyase-like superfamily protein;(source:Araport11)
+OG0022713,Pectin lyase-like superfamily protein;(source:Araport11)
 
-OG0022857 ,Encodes a protein containing a CRM domain that is involved in group I and group II intron splicing.
+OG0022857,Encodes a protein containing a CRM domain that is involved in group I and group II intron splicing.
 
-OG0022875 ,Ubiquitin-conjugating enzyme family protein;(source:Araport11)
+OG0022875,Ubiquitin-conjugating enzyme family protein;(source:Araport11)
 
-OG0022923 ,Encodes a member of the phosphate starvation-inducJLKJLKJ;JKJ;JLKJFDA S;lacksed glycerol-3-phosphate permease gene family: AT3G47420(G3Pp1)                                                              ,AT4G25220(G3Pp2)                                                                                                       ,AT1G30560(G3Pp3)                                                                 ,AT4G17550(G3Pp4) and AT2G13100(G3Pp5).
+OG0022923,Encodes a member of the phosphate starvation-inducJLKJLKJ;JKJ;JLKJFDA S;lacksed glycerol-3-phosphate permease gene family: AT3G47420(G3Pp1),AT4G25220(G3Pp2),AT1G30560(G3Pp3),AT4G17550(G3Pp4) and AT2G13100(G3Pp5).
 
-OG0022982 ,RTPFRVRPSLSRPLCLSSAFWDGTKKLSLGRHYSAFVGEKLRDHSESYHPVARCGLSRPRTPFRVRPSLSRPLCLSSAFWDGTKKPSLGVTLRLLWARNFEITQNRTTQ
+OG0022982,RTPFRVRPSLSRPLCLSSAFWDGTKKLSLGRHYSAFVGEKLRDHSESYHPVARCGLSRPRTPFRVRPSLSRPLCLSSAFWDGTKKPSLGVTLRLLWARNFEITQNRTTQ
 
-OG0022989 ,Encodes GMI1                                                                                                                                                                  ,a structural-maintenance-of-chromosomes-hinge domain-containing protein. Involved in somatic homologous recombination.
+OG0022989,Encodes GMI1,a structural-maintenance-of-chromosomes-hinge domain-containing protein. Involved in somatic homologous recombination.
 
-OG0022992 ,The At2g36790 gene encodes a UDP-glucose:flavonol-3-O-glycoside-7-O-glucosyltransferase (UGT73C6)attaching a glucosyl residue to the 7-O-position of the flavonols kaempferol ,quercetin and their 3-O-glycoside derivatives.
+OG0022992,The At2g36790 gene encodes a UDP-glucose:flavonol-3-O-glycoside-7-O-glucosyltransferase (UGT73C6)attaching a glucosyl residue to the 7-O-position of the flavonols kaempferol,quercetin and their 3-O-glycoside derivatives.
 
-OG0023029 ,Encodes HDA14                                                                                                                                                                 ,a member of the histone deacetylase family proteins that can deacetylate a-tubulin                                     ,associates with a/b-tubulin and is retained on GTP/taxol-stabilized microtubules ,at least in part                                                                                                            ,by direct association with the PP2A-A2 subunit. The association of a histone deacetylase with PP2A suggests a direct link between protein phosphorylation and acetylation. Class II RPD3-like family HDAC member which controls negative responses to salinity stress.
+OG0023029,Encodes HDA14,a member of the histone deacetylase family proteins that can deacetylate a-tubulin,associates with a/b-tubulin and is retained on GTP/taxol-stabilized microtubules,at least in part,by direct association with the PP2A-A2 subunit. The association of a histone deacetylase with PP2A suggests a direct link between protein phosphorylation and acetylation. Class II RPD3-like family HDAC member which controls negative responses to salinity stress.
 
-OG0023040 ,SAUR-like auxin-responsive protein family;(source:Araport11)
+OG0023040,SAUR-like auxin-responsive protein family;(source:Araport11)
 
-OG0023059 ,glycine/proline-rich protein;(source:Araport11)
+OG0023059,glycine/proline-rich protein;(source:Araport11)
 
-OG0023067 ,Encodes a putative sphingosine kinase (SphK) containing the five conserved domains (C1-C5) previously identified in SphKs.
+OG0023067,Encodes a putative sphingosine kinase (SphK) containing the five conserved domains (C1-C5) previously identified in SphKs.
+
+OG0023115,Encodes an NAD-dependent malic enzyme (NAD-ME) that does not act on oxaloacetate,indicating that it belongs to EC 1.1.1.39. It is a member of the beta family of NAD-MEs in plants. It appears to function as a homodimer or as a heterodimer with the alpha-type NAD-ME2 (At2g13560). NAD-ME2 transcript and protein levels are higher during the night than during the day.
+
+OG0023117,One of two genes in Arabidopsis that encode a putative subunit of the mitochondrial inner membrane translocase complex. TIM44 subunit is thought to provide the energy for translocation via hydrolysis of ATP.
+
+OG0023139,calcium-dependent lipid-binding family protein;(source:Araport11)
+
+OG0023145,putative cytochrome P450
+
+OG0023191,trimethylguanosine synthase (DUF707);(source:Araport11)
+
+OG0023238,T-complex protein 11;(source:Araport11)
+
+OG0023240,T-complex protein 11;(source:Araport11)
+
+OG0023245,Encodes a DYW-class PPR protein required for RNA editing at four sites in mitochondria of A. thaliana.
+
+OG0023260,Negative regulator of auxin polar transport inhibitors. ABCG37 regulates auxin distribution and homeostasis in roots by excluding IBA from the root apex, but does not act directly in basipetal transport. ABCG37 and ABCG36 act redundantly at outermost root plasma membranes and, transport IBA out of the cells. Also involved in root transmembrane secretion of fluorescent phenolics involved in Fe uptake. The mRNA is cell-to-cell mobile.
+
+OG0023261,Member of the plant-specific DUF724 protein family. Arabidopsis has 10 DUF724 proteins. Loss of function mutant has a WT phenotype
+
+OG0023263,contains Pfam profile: PF01657 Domain of unknown function that is usually associated with protein kinase domain Pfam:PF00069, however this protein does not have the protein kinase domain
+
+OG0023264,Member of the NAC transcription factor family and more specifically, the ONAC022 subfamily. Involved in leaf and inflorescence stem morphogenesis. The mRNA is cell-to-cell mobile.
+
+OG0023265,putative xyloglucan endotransglycosylase/hydrolase, expressed primarily in the stele of mature non-elongating regions of both the main and the lateral root. Is expressed in lateral root primordia but expression ceases after lateral root begins to grow. Involved in cell proliferation in incised inflorescence stems.
+
+OG0023266,ARM repeat superfamily protein;(source:Araport11)
+
+OG0023267,One of 5 PO76/PDS5 cohesion cofactor orthologs of Arabidopsis.
+
+OG0023317,ferric reductase-like transmembrane component family protein;(source:Araport11)
+
+OG0023318,Encodes a subunit of eukaryotic initiation factor 3 (eIF3), a multisubunit complex that is required for binding of mRNA to 40 S ribosomal subunits, stabilization of ternary complex binding to 40 S subunits, and dissociation of 40 and 60 S subunits.
+
+OG0023328,Putative ascorbate oxidase with ferroxidase activity, candidate for the regulation of apoplastic iron excess.
+
+OG0023386,Pentatricopeptide repeat (PPR-like) superfamily protein;(source:Araport11)
+
+OG0023408,Pyridoxal phosphate (PLP)-dependent transferases superfamily protein;(source:Araport11)
+
+OG0023449,Disease resistance protein (TIR-NBS-LRR class) family;(source:Araport11)
+
+OG0023451,Encodes a pentatricopeptide repeat (PPR) protein involved in RNA editing in mitochondria.
+
+OG0023452,Belongs to one of the LOM (LOST MERISTEMS) genes: AT2G45160 (LOM1), AT3G60630 (LOM2) and AT4G00150 (LOM3). LOM1 and LOM2 promote cell differentiation at the periphery of shoot meristems and help to maintain their polar organization.
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+OG0023454,autophagy gene regulated by TOPP4, which stimulated the formation of the ATG1a-ATG13a complex by dephosphorylating ATG13a.
+
+OG0023455,Protein kinase superfamily protein;(source:Araport11)
+
+OG0023467,member of CYP81D
+
+OG0023471,Zinc-binding dehydrogenase family protein;(source:Araport11)
+
+OG0023483,member of CYP78A
+
+OG0023493,Encodes a long chain acyl CoA synthetase that catalyzes the addition of CoA onto IBA, the first step in its β-oxidation.
+
+OG0023539,Encodes a facultative transporter controlling auxin concentrations in plant cells.
+
+OG0023544,Transmembrane amino acid transporter family protein;(source:Araport11)
+
+OG0023578,Encodes an ATP-binding cassette (ABC) transporter. Expressed in the vascular tissue of primary stem.
+
+OG0023587,LRR-MAL RK
+
+OG0023616,Encodes a receptor-like protein kinase.
+
+OG0023630,RING/U-box superfamily protein;(source:Araport11)
+
+OG0023632,Encodes a protein that is predicted to act as a phosphatidylinositol-3P 5-kinase, but, because it lacks a FYVE domain, it is unlikely to be efficiently targeted to membranes containing the porposed phosphatidylinositol-3P substrate. Therefore, its molecular function remains unknown. The mRNA is cell-to-cell mobile.
+
+OG0023633,Encodes a protein with similarity to WUS type homeodomain protein. Required for meristem growth and development and acts through positive regulation of WUS. Loss of function phenotypes include embryo lethality, hyponastic cotyledons, reduced root development and smaller meristems. Phenotypes can be rescued by addition of sucrose in the growth media. Appears to be regulated by cytokinin and acts downstream of cytokinin receptors.
+
+OG0023634,Pentatricopeptide repeat proteins involved in mitochondrial RNA processing.
+
+OG0023635,EF hand domain protein encodes a calmodulin. Can functionally complement a yeast CaM mutant. Unique member of the CAM family that works as a transcription factor in light signaling pathways; works in concert with CONSTITUTIVE PHOTOMORPHOGENIC 1 and ELONGATED HYPOCOTYL 5, and plays an important role in seedling development; involved in the regulation of the activity of various Ca2+-gated channels such as cyclic nucleotide gated channel 6 (CNGC6), CNGC14 and auto-inhibited Ca2+ ATPase 8.
+
+OG0023636,member of RLI subfamily The mRNA is cell-to-cell mobile.
+
+OG0023637,Calcium-binding EF hand family protein;(source:Araport11)
+
+OG0023638,Calcium-binding EF hand family protein;(source:Araport11)
+
+OG0023639,Regulator of Vps4 activity in the MVB pathway protein;(source:Araport11)
+
+OG0023641,kinase C substrate, heavy chain-like protein;(source:Araport11)
+
+OG0023642,Encodes a VirE2-interacting protein. VIP1 mediates nuclear translocation of VirE2 via its amino half, and interacts with histone H2A via it carboxyl half. Involved in osmosensory response. The mRNA is cell-to-cell mobile.
+
+OG0023650,P-loop containing nucleoside triphosphate hydrolases superfamily protein;(source:Araport11)
+
+OG0023651,Identified as a mutant resistant to chlorate. Encodes nitrate reductase structural gene. Involved in nitrate assimilation. Has nitrate reductase activity. Up-regulated by the fungus P. indica. Binds transcription factor At2g35940. The mRNA is cell-to-cell mobile.
+
+OG0023654,ROOT GROWTH DEFECTIVE 3;(source:Araport11)
+
+OG0023655,ROOT GROWTH DEFECTIVE 3;(source:Araport11)
