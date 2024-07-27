@@ -1,0 +1,10 @@
+library(clusterProfiler, lib.loc = "/data/rocky/R_libs")
+library(AnnotationHub, lib.loc = "/data/rocky/R_libs")
+library(biomaRt, lib.loc = "/data/rocky/R_libs")
+term2gene <- read.table("/data/rocky/enrichment/Enrichment/trimmed_blast2go_no_third_col.tsv",header=F,sep="\t")
+term2name <- read.table("/data/rocky/enrichment/Enrichment/trimmed_blast2go_no_first_col.tsv",header=F,sep="\t")
+AF_EA_gene = read.table("/data/rocky/enrichment/Enrichment/core.tsv",header = F)
+x <- enricher(AF_EA_gene$V1,TERM2GENE=term2gene,TERM2NAME=term2name,pvalueCutoff = 0.5, pAdjustMethod = "BH", qvalueCutoff = 1)
+p = dotplot(x)
+p + scale_color_continuous(low='#FDB462', high='#5e534a')
+

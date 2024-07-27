@@ -18,11 +18,12 @@ create_bar_plot <- function(file_path) {
     theme_minimal() +
     theme(
       axis.text.x = element_text(angle = 45, hjust = 1),
-      panel.grid.major = element_blank(), 
-      panel.grid.minor = element_blank()
+      # panel.grid.major = element_blank(), 
+      # panel.grid.minor = element_blank()
     ) +
-    labs(title = basename(file_path), x = "Element", y = "Sum") +
-    coord_cartesian(ylim = c(20000, max(data_long$Value, na.rm = TRUE)))
+    labs(title = basename(file_path), x = "Gene Name", y = "Gene Family Num") +
+    coord_cartesian(ylim = c(20000, max(data_long$Value, na.rm = TRUE))) +
+    geom_vline(xintercept = 0, color = "black")   
   
   return(plot)
 }
@@ -34,9 +35,9 @@ file_path <- "Gene_Sum/sum_I_default.tsv"
 plot <- create_bar_plot(file_path)
 
 # Save the plot as a PDF
-pdf("Gene_Sum/sum_I_default_bar_graph.pdf", width = 10, height = 7)
+pdf("Gene_Sum/Gene Family Num.pdf", width = 10, height = 7)
 print(plot)
 dev.off()
 
-print("Bar graph saved as Gene_Sum/sum_I_default_bar_graph.pdf")
+print("Bar graph saved as Gene_Sum/Gene Family Num.pdf")
 
