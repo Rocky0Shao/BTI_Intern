@@ -26,14 +26,17 @@ create_combined_plot <- function(data) {
   ggplot(data, aes(x = Nr.Reference, y = reorder(GO.Name, as.numeric(GO.Category)), fill = `Adj..P.value`), limits = c(min_p_value,max_p_value)) +
     geom_bar(stat = "identity") +
     scale_fill_gradientn(
-      colours = c("darkgreen", "green", "yellow", "orange", "red"),
+      colours = c("darkgreen", "lightgreen"),
       values = scales::rescale(c(min_p_value, max_p_value)),
       name = "P Value"
     )  +
     labs(title = "PAV Selection Analysis", x = "Gene count", y = "GO Categories") +
     theme_minimal() +
-    theme(axis.text.y = element_text(size = 8),panel.border = element_rect(colour = "black", fill = NA, size = 1))
+    theme(axis.text.y = element_text(size = 8 , hjust = 1),panel.border = element_rect(colour = "black", fill = NA, size = 1))
+        # theme(axis.text.y = element_text(size = 8 ))
+
 }
+
 
 # Create the combined plot
 combined_plot <- create_combined_plot(data)
