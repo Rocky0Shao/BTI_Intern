@@ -1,9 +1,9 @@
 # Load necessary libraries
 library(ggplot2)
-# library(dplyr)
+library(dplyr)
 
 # Read the data
-data <- read.table("w_c_total_results.txt", header = TRUE, sep = "\t")
+data <- read.table("C:/Users/Rocky/Desktop/BTI_Git/BTI_Intern/Wild_vs_Cultivated/Count_Enrichment/w_c_total_results.txt", header = TRUE, sep = "\t")
 
 # Create0+ subsets for each GO Category
 molecular_function <- data %>% filter(GO.Category == "MOLECULAR_FUNCTION")
@@ -30,6 +30,6 @@ create_combined_plot <- function(data) {
 combined_plot <- create_combined_plot(combined_data)
 
 # Save the plot to a PDF
-pdf("combined.pdf", height = 14, width = 8.5)
+pdf("Wild_vs_Cultivated/Count_Enrichment/combined.pdf", height = 10, width = 8.5)
 print(combined_plot)
 dev.off()
