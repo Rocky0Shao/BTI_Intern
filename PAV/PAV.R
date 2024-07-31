@@ -4,7 +4,7 @@ library(dplyr)
 library(gridExtra)
 
 # Read the TSV file
-data <- read.csv("I_30.tsv", sep="\t", header=TRUE)
+data <- read.csv("PAV/I_d.tsv", sep="\t", header=TRUE)
 
 # Categorize frequencies
 data$Category <- cut(data$Normalized_Gene_Count, 
@@ -16,6 +16,10 @@ data$Category <- cut(data$Normalized_Gene_Count,
 category_count <- data %>% 
   group_by(Category) %>% 
   summarise(Count = n())
+
+# Calculate percentages
+category_count <- category_count %>%
+  mutate(Percentage = round((Count / sum(Count)) * 100, 2))
 
 # Define a function to determine the fill color based on the normalized gene count
 fill_color <- function(count) {
@@ -40,17 +44,25 @@ bar_plot <- ggplot(data, aes(x=Normalized_Gene_Count, fill=Fill)) +
   scale_y_log10(breaks = scales::trans_breaks("log10", function(x) 10^x),
                 labels = scales::trans_format("log10", scales::math_format(10^.x))) +
   labs(x = "Frequency", y = "No. of genes") +
-  theme_minimal()
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(size=14), # Increase x-axis text size
+    axis.text.y = element_text(size=14), # Increase y-axis text size
+    axis.title.x = element_text(size=16), # Increase x-axis title size
+    axis.title.y = element_text(size=16), # Increase y-axis title size
+    plot.title = element_text(size=18)    # Increase plot title size
+  )
 
 # Plot pie chart
 pie_plot <- ggplot(category_count, aes(x="", y=Count, fill=Category)) +
   geom_bar(stat="identity", width=1) +
   coord_polar("y", start=0) +
+  geom_text(aes(label=paste0(Percentage, "%")), position=position_stack(vjust=0.5)) +
   theme_void() +
   scale_fill_manual(values=c("Core"="#FFD700", "SoftCore"="#FF69B4", "Shell"="#D3D3D3", "Cloud"="#A9A9A9")) +
   theme(legend.position = "right")
 
 # Combine plots and save to file
-pdf("PAV_30.pdf", width = 15, height = 6)
+pdf("PAV/PAV_d.pdf", width = 15, height = 6)
 grid.arrange(bar_plot, pie_plot, ncol=2)
 dev.off()

@@ -4,7 +4,7 @@ library(dplyr)
 library(gridExtra)
 
 # Read the TSV file
-data <- read.csv("wild.tsv", sep="\t", header=TRUE)
+data <- read.csv("Wild_vs_Cultivated/PAV/wild.tsv", sep="\t", header=TRUE)
 
 # Categorize frequencies
 data$Category <- cut(data$Normalized_Gene_Count, 
@@ -51,6 +51,6 @@ pie_plot <- ggplot(category_count, aes(x="", y=Count, fill=Category)) +
   theme(legend.position = "right")
 
 # Combine plots and save to file
-pdf("PAV_wild.pdf", width = 15, height = 6)
+pdf("Wild_vs_Cultivated/PAV/PAV_wild.pdf", width = 15, height = 6)
 grid.arrange(bar_plot, pie_plot, ncol=2)
 dev.off()
