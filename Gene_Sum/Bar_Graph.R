@@ -25,8 +25,8 @@ create_bar_plot <- function(file_path) {
       panel.border = element_rect(colour = "black", fill = NA, size = 1)  # Add black box around the graph
     ) +
     scale_y_continuous(labels = comma) +  # Format y-axis values with commas
-    labs(x = "Individual Name", y = "Gene Family Num") +
-    coord_cartesian(ylim = c(20000, max(data_long$Value, na.rm = TRUE))) +
+    labs(x = "", y = "No. of Genes") +
+    # coord_cartesian(ylim = c(20000, max(data_long$Value, na.rm = TRUE))) +
     geom_vline(xintercept = 0, color = "black")   
   
   return(plot)
@@ -39,7 +39,7 @@ file_path <- "Gene_Sum/sum_I_default.tsv"
 plot <- create_bar_plot(file_path)
 
 # Save the plot as a PDF
-pdf("Gene_Sum/Gene Family Num.pdf", width = 13, height = 7)
+pdf("Gene_Sum/Gene Family Num revise.pdf", width = 13, height = 7)
 print(plot)
 dev.off()
 

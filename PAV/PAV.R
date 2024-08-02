@@ -46,21 +46,21 @@ bar_plot <- ggplot(data, aes(x=Normalized_Gene_Count, fill=Fill)) +
   labs(x = "Frequency", y = "No. of genes") +
   theme_minimal() +
   theme(
-    axis.text.x = element_text(size=14), # Increase x-axis text size
-    axis.text.y = element_text(size=14), # Increase y-axis text size
-    axis.title.x = element_text(size=16), # Increase x-axis title size
-    axis.title.y = element_text(size=16), # Increase y-axis title size
-    plot.title = element_text(size=18)    # Increase plot title size
+    axis.text.x = element_text(size=18, face="bold"), # Increase x-axis text size and make bold
+    axis.text.y = element_text(size=18, face="bold"), # Increase y-axis text size and make bold
+    axis.title.x = element_text(size=16, face="bold"), # Increase x-axis title size and make bold
+    axis.title.y = element_text(size=16, face="bold"), # Increase y-axis title size and make bold
+    plot.title = element_text(size=18, face="bold")    # Increase plot title size and make bold
   )
 
 # Plot pie chart
 pie_plot <- ggplot(category_count, aes(x="", y=Count, fill=Category)) +
   geom_bar(stat="identity", width=1) +
   coord_polar("y", start=0) +
-  geom_text(aes(label=paste0(Percentage, "%")), position=position_stack(vjust=0.5)) +
+  geom_text(aes(label=paste0(Percentage, "%")), position=position_stack(vjust=0.5), size=5, fontface="bold") +
   theme_void() +
   scale_fill_manual(values=c("Core"="#FFD700", "SoftCore"="#FF69B4", "Shell"="#D3D3D3", "Cloud"="#A9A9A9")) +
-  theme(legend.position = "right")
+  theme(legend.position = "right", legend.text = element_text(size=14, face="bold"), legend.title = element_text(size=16, face="bold"))
 
 # Combine plots and save to file
 pdf("PAV/PAV_d.pdf", width = 15, height = 6)
