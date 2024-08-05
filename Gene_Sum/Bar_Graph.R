@@ -25,7 +25,7 @@ create_bar_plot <- function(file_path) {
       panel.border = element_rect(colour = "black", fill = NA, size = 1)  # Add black box around the graph
     ) +
     scale_y_continuous(labels = comma) +  # Format y-axis values with commas
-    labs(x = "", y = "No. of Genes") +
+    labs(x = "", y = "No. of Gene Families") +
     # coord_cartesian(ylim = c(20000, max(data_long$Value, na.rm = TRUE))) +
     geom_vline(xintercept = 0, color = "black")   
   
